@@ -1,0 +1,10 @@
+.app {
+    min-height: 100vh;
+    font-size: 16px;
+    color: white;
+}
+
+.app--dark-mode {
+  background-color: rgba(40, 44, 52, 1);
+}
+

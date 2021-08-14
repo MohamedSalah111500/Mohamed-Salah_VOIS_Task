@@ -1,0 +1,62 @@
+.ScreenTow-container {
+}
+
+.ScreenTow-container button{
+    float: right;
+    margin: 20px;
+}
+
+.category-row {
+  margin: 0 26px;
+  display: table;
+}
+.category-row h3 {
+  color: #565656;
+}
+.products-box {
+  background: white;
+  padding: 10px;
+  color: #565656;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 1px 1px 2px 1px #b4b4b4;
+  border-radius: 3px;
+}
+
+.product {
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 1px 1px 2px 1px #d8d8d8;
+  border-radius: 5px;
+  min-width: 190px;
+  min-height: 154px;
+  font-size: 16px;
+  position: relative;
+}
+.product .product-name {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.product .product-name input , .product .product-name label  {
+ cursor: pointer;
+}
+
+.product .product-name input , .product .product-name label:hover  {
+  opacity: 0.7;
+ }
+
+.product .product-description{
+
+}
+
+.product .product-price{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(156 42 160);
+    bottom: 0;
+    position: absolute;
+    right: 20px;
+}
+
